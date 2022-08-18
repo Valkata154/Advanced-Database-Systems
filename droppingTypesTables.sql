@@ -1,0 +1,19 @@
+/** TASK 6 **/
+/** SCRIPT FOR DROPPING ALL TYPES AND TABLES FROM THE DATABASE **/
+
+DROP TYPE tp_Name FORCE; 
+DROP TYPE tp_Address FORCE;
+DROP TYPE tp_Phone FORCE; 
+DROP TYPE tp_Person FORCE; 
+DROP TYPE tp_Job FORCE; 
+DROP TYPE tp_Branch FORCE; 
+DROP TYPE tp_Account FORCE; 
+DROP TYPE tp_Customer FORCE; 
+DROP TYPE tp_Employee FORCE;
+DROP TYPE tp_Phone_Table FORCE;
+DROP TABLE tb_Customer; 
+DROP TABLE tb_Account; 
+DROP TABLE tb_Customer_Account;
+DROP TABLE tb_Job;
+DROP TABLE tb_Branch;
+DROP TABLE tb_Employee;
